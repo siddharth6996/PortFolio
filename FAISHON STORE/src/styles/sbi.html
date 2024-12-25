@@ -1,0 +1,373 @@
+<head>
+  <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <style>
+    main {
+      margin-left: 100px;
+      margin-right: 100px;
+      border: 1px solid grey;
+      border-radius: 10px;
+      margin-top: 80px;
+      margin-bottom: 50px;
+      padding: 20px;
+      box-shadow: 7px 7px 7px gray;
+
+    }
+
+    header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .SBI {
+      color: rgba(43, 4, 75);
+      font-size: 50px;
+      font-weight: bolder;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .ONLINE {
+      color: rgb(13, 151, 243);
+      font-size: 19px;
+
+    }
+
+    nav {
+      background-color: #021463;
+      color: white;
+      display: grid;
+      grid-template-columns: 1.71fr 1.71fr 1.71fr 1.71fr 1.71fr 1.71fr 1.71fr;
+      padding: 10px;
+      margin-top: -20px;
+    }
+
+    .apple span {
+      border-right: 1px solid white;
+      padding-left: 28px;
+    }
+
+    .sbinever {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+      margin-top: 2px;
+    }
+
+    .colorchange {
+      /* color: blue; */
+      animation: color-change 2s infinite;
+    }
+
+    .person {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid black;
+      justify-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+      padding-bottom: 30px;
+    }
+
+    .bi-person-fill {
+      color: blue;
+      font-size: 100px;
+
+    }
+
+    @keyframes color-change {
+      0% {
+        color: blue;
+
+      }
+
+      50% {
+        color: red;
+
+      }
+
+      100% {
+        color: green;
+      }
+
+    }
+
+    .login {
+      background-color: #021463;
+      color: white;
+      margin-top: 5px;
+      padding: 5px;
+
+    }
+
+    .two {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: 7fr 5fr;
+
+    }
+
+    .newuser {
+      display: grid;
+      grid-template-columns: 4fr 4fr 4fr;
+
+    }
+
+    .ag {
+      display: flex;
+      justify-content: space-around;
+
+      width: 600px;
+      margin-top: 20px;
+    }
+
+    p {
+      color: grey;
+    }
+
+    .SBI img {
+      margin-top: 3px;
+
+    }
+
+    .yonoonline span img {
+      position: relative;
+      right: -200px;
+      height: 40px;
+      margin-top: 20px;
+    }
+
+    .corporate {
+      position: relative;
+      right: -200px;
+      margin-top: 25px;
+     
+        }
+
+    .yonobusiness {
+      border: 1px solid black;
+      padding: 5px;
+      width: fit-content;
+      position: relative;
+      right: -200px;
+      margin-top: 5px;
+    }
+
+    .yonoonline {
+      border: 1px solid black;
+      background-color: whitesmoke;
+      padding-bottom: 30px;
+      margin-left: 10px;
+
+    }
+
+    .yonoonline .login {
+      position: relative;
+      right: -350px;
+      top: -25px;
+      padding: 6px;
+
+
+    }
+
+    .mar {
+      background-color: rgb(137, 245, 245);
+      color: red;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 5px;
+      margin-top: 5px;
+    }
+
+    .four {
+
+
+      background-color: whitesmoke;
+      margin-top: 5px;
+    }
+
+    ul {
+      list-style-type: none;
+      display: grid;
+      grid-template-columns: 3fr 3fr 3fr;
+      padding-bottom: 8px;
+
+
+    }
+
+    li {
+      margin-top: 14px;
+      color: #021463;
+    }
+
+    .more {
+
+      justify-content: center;
+      display: flex;
+      margin-bottom: 5px;
+
+
+    }
+
+    .more div {
+      background-color: whitesmoke;
+      border: 1px solid #05579a;
+      padding: 10px;
+    }
+
+    .top {
+      position: relative;
+      top: 2px;
+      right: -18px;
+
+    }
+
+    .qr {
+      position: relative;
+      top: -20px;
+    }
+
+    .icons {
+      display: block;
+    }
+
+    .bi-twitter-x {
+      color: white;
+      background-color: black;
+      padding: 4px;
+      border-radius: 10px;
+    }
+
+    .bi-youtube {
+      color: red;
+    }
+
+    .bi-whatsapp {
+      color: green;
+    }
+
+    .bi-youtube,
+    .bi-whatsapp,
+    .bi-facebook {
+      font-size: 25px;
+    }
+
+    .icons li {
+      background-color: rgb(19, 160, 221);
+      width: fit-content;
+      padding: 10px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <div CLASS="SBI"> 
+        <img class="top"src="https://www.freepnglogos.com/uploads/sbi-logo-png/sbi-logo-sbi-symbol-meaning-history-and-evolution-11.png"
+          height="40px">
+          <span>SBI</span></div>
+      <div class="qr"><img src="/FAISHON STORE/public/images/sbi.jpg" height="100px"></div>
+      <div CLASS="SBI">SBI <div CLASS="ONLINE">ONLINE</div>
+      </div>
+    </header>
+    <nav class="apple">
+      <span>Services</span>
+      <span>FAQ</span>
+      <span>Corporate website</span>
+      <span>SBI LITE</span>
+      <SPAN>sbi unipay</SPAN>
+      <span>sbi loans</span>
+      <span>हिंदी</span>
+    </nav>
+    <section class="one">
+      <div class="sbinever">
+        <span class="colorchange">If slowness is observed during Login Page loading, please refresh the page for better
+          experience.</span>
+        <span>SBI never asks for confidential information such as PIN and OTP from customers. Any such call can be made
+          only by a fraudster. Please do not share personal info.</span>
+      </div>
+    </section>
+    <section class="two">
+      <div class="person">
+        <span class="bi bi-person-fill "></span>
+        <span>
+          <h3>PERSONAL BANKING</h3>
+        </span>
+        <span class="login">LOGIN <span class="bi-chevron-double-right"></span></span>
+        <div class="newuser">
+          <div class="ag">
+            <span class="bi-person-arms-up">New user <br>registration</span>
+            <span class="bi-question-circle-fill">HOW DO I</span>
+            <span class="bi bi-person-standing">Customer care</span>
+          </div>
+        </div>
+        <p align="center">SBI's internet banking portal provides personal banking services that gives you complete
+          control over all your banking demands online</p>
+      </div>
+      <div class="yonoonline">
+        <span><img src="https://www.onlinesbi.sbi/sbijava/images/ybbi_corp.png" alt=""></span>
+        <div class="corporate">
+          <h3>CORPORATE BANKING</h3>
+        </div>
+        <div class="yonobusiness">yono&nbsp;&nbsp&nbspBUSINESS </div>
+        <span class="login">LOGIN </span></span>
+        <p align="center">Have you tried our new simplified and intuitive business banking platform? Log in to
+          yonobusiness.sbi to avail business banking services.</p>
+        <div class="ag">
+          <span class="bi-person-arms-up">New corporate registration </span>
+          <span class="bi-question-circle-fill">HOW DO I</span>
+          <span class="bi bi-person-standing">Customer care</span>
+        </div>
+        <p align="center"><br>Corporate Banking application to administer and manage non personal accounts online.</p>
+      </div>
+    </section>
+
+    <section class="three">
+      <div class="mar">
+        <marquee>Customers can now deposit Income Tax/Corporate Taxes using all Bank Debit Cards and Credit Cards under
+          State Bank Payment Gateway. | Mandatory Profile password change after 365 days introduced for added security.
+          | Call us toll free on 1800 1234 and 1800 2100 and get a wide range of services through SBI Contact Centre. |
+        </marquee>
+      </div>
+    </section>
+
+    <section class="four">
+      <div class="nri">
+        <ul>
+          <li> > RBI Retail Direct portal</li>
+          <li> > Doorstep Banking</li>
+          <li> > NRI Services</li>
+          <li> > SBI Mutual Fund</li>
+          <li> > SBI Mutual Fund</li>
+          <li> > SBI General Insurance Document Download</li>
+          <li> > Fair Lending Practice Code</li>
+          <li> > Fair Lending Practice Code</li>
+          <li> > Banking Forms</li>
+          <li> > RBI Retail Direct portal</li>
+          <li> > Doorstep Banking</li>
+          <li> > NRI Services</li>
+        </ul>
+      </div>
+      <div class="more">
+        <div>
+          <span class="bi bi-caret-down-fill"></span>
+          <span>More useful links</span>
+        </div>
+      </div>
+    </section>
+    <section class="five"><img src="https://www.onlinesbi.sbi/sbijava/images/banner12.jpg" width="100%" height="250px">
+    </section>
+  </main>
+  <aside>
+    <ul class="icons">
+      <li><span class="bi bi-facebook"></span></li>
+      <li><span class="bi bi-twitter-x"></span></li>
+      <li><span class="bi bi-youtube"> </span></li>
+      <li><span class="bi bi-whatsapp"></span></li>
+    </ul>
+  </aside>
+
+</body>

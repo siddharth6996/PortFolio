@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    
+    <style>
+        fieldset{
+            width: fit-content;
+        }
+        ul{
+            list-style-type: none;
+        }
+       .errorfield{
+        color: red;
+      
+       }
+       .loginform{
+        
+        border: 2px solid black;
+        width: fit-content;
+        padding: 10px;
+       }
+       label{}
+      
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>your comments</legend>
+             <textarea name="" id="" cols="50" rows="10"></textarea>
+             <br> <br>
+             <textarea name="" id="" cols="50" rows="10" readonly>TERMS OF SERVICES</textarea>
+             <br><br>
+             <button>POST YOUR COMMENTS</button>
+        </fieldset>
+     </form>
+  
+     <!-- meter element -->
+     <meter value="25" min="0" max="100" low="30" high="50" optimum="80"></meter>
+     <meter value="45" min="0" max="100" low="30" high="50" optimum="80"></meter>
+     <meter value="70" min="0" max="100" low="30" high="50" optimum="80"></meter>
+       <br> <br>
+     <!-- progress element -->
+     <progress></progress>
+     <progress min="0" max="100" value="40"></progress> 40% completed <br>
+     <progress min="0" max="100" value="100"></progress> 100% completed
+
+    <form action="" class="loginform">
+         <h1 class="bi bi-person-fill"> User Login</h1>
+
+           <!-- ASSOCIATED WITH USERNAME -->
+         <label for="username">Username</label> 
+           <div>
+             <input type="text" name="txtusername" id="username">
+             <div class="errorfield">INVALID USERNAME</div>
+          </div>
+            <br><br>
+              
+            <!-- ASSOCIATED WITH PASSWORD -->
+         <label for="password">Password</label> <br>
+         <div>
+             <input type="password" name="txtpd" id="password">
+             <div class="errorfield">INVALID PASSWORD</div>
+         </div>
+
+
+    </form>
+       
+    <ul>
+       <li>
+           <span>5</span>
+           <span class="bi bi-star-fill"></span>
+            <meter value="80" min="0" max="100" low="20" high="80" optimum="80"></meter>
+           <span>92,708</span>
+       </li>
+       <li>
+          <span>4</span>
+          <span class="bi bi-star-fill"></span>
+           <meter value="60" min="0" max="100" low="20" high="80" optimum="80"></meter>
+          <span>92,708</span>
+      </li>
+      <li>
+          <span>3</span>
+          <span class="bi bi-star-fill"></span>
+           <meter value="20" min="0" max="100" low="20" high="80" optimum="80"></meter>
+          <span>92,708</span>
+      </li>
+      <li>
+          <span>2</span>
+          <span class="bi bi-star-fill"></span>
+           <meter value="10" min="0" max="100" low="40" high="80" optimum="80"></meter>
+          <span>92,708</span>
+      </li>
+      <li>
+          <span>1</span>
+          <span class="bi bi-star-fill"></span>
+           <meter value="20" min="0" max="100" low="30" high="70" optimum="80"></meter>
+          <span>92,708</span>
+      </li>
+    </ul>
+     
+</body>
+</html>

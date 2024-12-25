@@ -1,0 +1,66 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+         <form>
+            <!-- meta character= ? -->
+              <input type="text" name="txtText" placeholder="color/colour" pattern="colou?r">
+              <button>submit</button>
+              <br>
+
+               <!-- meta character= * -->
+              <input type="text" name="txtText" placeholder="color/colour/colouur/colouuur" pattern="colou*r">
+              <button>submit</button>
+              <br>
+
+               <!-- meta character= + -->
+               <input type="text" name="txtText" placeholder="colour/colouur/colouuur" pattern="colou+r">
+               <button>submit</button>
+               <br>
+
+                <!-- meta character= . -->
+                <input type="text" name="txtText" placeholder="buy/boy/bay/bey/bgy" pattern="b.y">
+                <button>submit</button>
+                <br>
+
+                 <!-- meta character= \ -->
+               <input type="text" name="txtText" placeholder="+9110digitnumber" pattern="\+916299595017">
+               <button>submit</button>
+               <br>
+ 
+                 <!-- meta character= \ -->
+                 <input type="text" name="txtText" placeholder="sachin@gmail.com" pattern="sachin@gmail\.com">
+                 <button>submit</button>
+                 <br>
+
+                   <!-- meta character= | -->
+              <input type="text" name="txtText" placeholder="green,red,blue" pattern="green|red|blue">
+             <button>submit</button>
+               <input type="text" name="txtText" placeholder="this,that,the" pattern="th(is|at|e)">
+               <button>submit</button>
+               <br>
+
+               <!-- meta character= ^ -->
+               <input type="text" name="txtText" placeholder="a,d,s" pattern="[a,d,s]">
+               <button>submit</button>
+
+               <input type="text" name="txtText" placeholder="anything except a,d,s" pattern="[^a,d,s]">
+               <button>submit</button>
+               <br>
+
+                <!-- meta character= - -->
+                <input type="text" name="txtText" placeholder="any alphabet from a - z" pattern="[a-z]">
+                <button>submit</button>
+                <input type="text" name="txtText" placeholder="any digit from 0 - 9" pattern="[0-9]">
+                <button>submit</button>
+                <input type="text" name="txtText" placeholder="any alphabet in uppercase or lowercase or any digit " pattern="[a-z ,A-Z ,0-9]" size="45">
+                <button>submit</button>
+                <input type="text" name="txtText" placeholder=" excluding any alphabet in uppercase or lowercase or any digit " pattern="[^a-z ,A-Z, 0-9]" size="45">
+                <button>submit</button>
+                <br>
+
+
+         </form>
+    </body>
+</html>

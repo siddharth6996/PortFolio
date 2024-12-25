@@ -1,0 +1,119 @@
+<head>
+ <style>
+     .nope{
+        list-style-type: none;
+     }
+     .apple{
+       border: 1px solid black;
+       width: 200px;
+       height: 70px;
+       overflow: auto;
+     }
+     .cat{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 1px solid black;
+        width: 600px;
+     }
+     .grid{
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+     }
+     .columns{
+        columns: 2;
+     }
+ </style>
+</head>
+<body>
+    <ol type="I" start="4">
+        <li>html</li>
+        <li>css</li>
+        <li>bootstrap</li>
+        <li>react</li>
+    </ol>
+
+<!-- nesting of ordered elements -->
+
+    <h1>web technologies</h1>
+    <ol type="1">
+        <li> frontend
+            <ol type="a">
+                <li>html</li>
+                <li>css</li>
+            </ol>
+        </li>
+        <li>backend
+            <ol type="a">
+                <li>mernstatck</li>
+                <li>mongodb</li>
+            </ol>
+        </li>
+    </ol>
+    
+<!-- how to remove the numbering of orderd list -->
+
+<h2>support</h2>
+<ol class="nope">
+     <li> contact us</li>
+    <li>faq</li>
+    <li>size guide</li>
+    <li>shipping and returns</li>
+</ol>
+
+<!-- how to create a scrollable list -->
+
+<h2>support</h2>
+<ol class="apple">
+     <li> contact us</li>
+    <li>faq</li>
+    <li>size guide</li>
+    <li>shipping and returns</li>
+    <li> contact us</li>
+    <li>faq</li>
+    <li>size guide</li>
+    <li>shipping and returns</li>
+    <li> contact us</li>
+    <li>faq</li>
+    <li>size guide</li>
+    <li>shipping and returns</li>
+    <li> contact us</li>
+    <li>faq</li>
+    <li>size guide</li>
+    <li>shipping and returns</li>
+</ol>
+
+
+<!-- display list items inline -->
+  
+<ol class="cat">
+    <li> contact us</li>
+   <li>faq</li>
+   <li>size guide</li>
+   <li>shipping and returns</li>
+</ol>
+
+<!-- display list items in mcq format -->
+
+<ol>
+    <li>which of the following is not a oop language</li>
+    <ol class="grid" type="a">
+        <li>c</li>
+        <li>c++</li>
+        <li>java</li>
+        <li>javascript</li>
+    </ol>
+</ol>
+
+
+<ol>
+    <li>which of the following is not a oop language</li>
+    <ol class="columns" type="a">
+        <li>c</li>
+        <li>c++</li>
+        <li>java</li>
+        <li>javascript</li>
+    </ol>
+</ol>
+
+</body>
