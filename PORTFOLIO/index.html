@@ -1,0 +1,256 @@
+<head>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+       body{
+        background-color: #2192b0;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       header{
+         display: flex;
+         color: black;
+         justify-content: space-around;
+         background-color: 71bfd1;
+         margin-left: 30px;
+         margin-right: 30px;
+         margin-top: -8px;
+         padding: 20px;
+         border-bottom-left-radius:30px ;
+         border-bottom-right-radius:30px ;
+         position: sticky;
+         top:0px;
+         box-shadow: 10px 10px 10px #15bcc2;
+         font-family: Arial, Helvetica, sans-serif;
+ 
+        
+ 
+       }
+       section
+       {
+          color: black;
+         
+         background-color: 71bfd1;
+         margin-left: 30px;
+         margin-right: 30px;
+         margin-top: 10px;
+         padding: 20px;
+         border-top-left-radius:30px ;
+         border-top-right-radius:30px ;
+         text-align: center;
+         box-shadow: 10px 10px 10px #15bcc2;
+         
+       }
+       header span{
+         margin-left: 30px;
+       }
+       .ho span{
+         border-right: 3px solid black;
+         padding-right: 30px;
+       }
+      .first{
+         text-align: center;
+          margin-top: 30px;
+          background-color: 71bfd1;
+          margin-left: 30px;
+          margin-right: 30px;
+          padding: 20px;
+          border-radius: 30px;
+          box-shadow: 10px 10px 10px #15bcc2;
+          
+         
+      }
+      p{
+         font-size: 30px;
+         font-weight: 200;
+         font-family: Arial, Helvetica, sans-serif;
+        
+      }
+      legend{
+         background-color: #0a829c;
+         color:white;
+         border-radius: 20px;
+         padding: 30px;
+      }
+      li img{
+         border-radius: 30px;
+ 
+      }
+      li{
+         font-size: 30px;
+         margin-left: 20px;
+         background-color:#07819c ;
+         padding: 10px;
+         border-radius: 20px;
+      }
+      ul{
+         display: flex;
+         list-style-type: none;
+      }
+      .pro{
+         display: flex;
+         flex-direction: column;
+      }
+      .pro li{
+         margin-top: 10px;
+      }
+      input{
+          
+         padding: 15px;
+         margin: 15px;
+         border-radius: 30px;
+         background-color: #2192b0;
+         outline: #2192b0;
+      }
+      input::placeholder
+      {
+         color: white;
+      }
+      button{
+         background-color: #2192b0;
+         margin-top: 10px;
+         padding: 10px; 
+         border-radius:7px;
+         margin-left: 5px;
+      }
+      .first:hover{
+         transform:translateX(-5%);
+         transition: transform 0.9s ease;
+      }
+      a{
+       text-decoration: none;
+ 
+      }
+      a:visited{
+       color: black;
+      }
+      a:active{
+         color: black;
+      }
+      a:link{
+         color: black;
+      }
+      .second{
+       display: grid;
+       grid-template-columns: 8fr 4fr;
+      }
+      .social{
+       list-style-type: none;
+       display: flex;
+       flex-direction: column;
+      
+      }
+      .social li{
+       margin-top: 10px;
+      }
+      .social span{
+       display: block;
+      }
+ 
+    </style>
+ </head>
+ <body>
+       <header >
+          <span>NAMASTE</span>
+          <div class="ho">
+             <span><a href="#HOME">HOME</a></span>
+             <span><a href="#ABOUT">ABOUT</a></span>
+             <span><a href="#SKILLS">SKILLS</a></span>
+             <span><a href="#PROJECTS">PROJECTS</a></span>
+             <span><a href="#CONTACT">CONTACT</a></span>
+          </div>
+       </header>
+       <fieldset class="first">
+           <legend id="HOME">HOME</legend>
+           <p>
+             I'm <b>Siddharth</b> ,
+             <br>
+              A Freshman 
+             <br>
+             And
+             <br>
+              An Aspiring Software Engineer :)
+          </p>
+       </fieldset>
+       <fieldset class="first" >
+          <legend id="ABOUT">ABOUT</legend>
+           <p style="font-size: 20px;">You're Siddharth Dubey, a first-year undergraduate student based in India, with a keen interest in computer science, data science, and artificial intelligence. You're exploring the world of technology and its applications, and you’re working towards gaining deeper knowledge in these fields during your academic journey. </p>
+       </fieldset>
+       <fieldset class="first">
+          <legend id="SKILLS">SKILLS</legend>
+          <ul>
+            <li>
+               <span>HTML</span>
+               <span><img  height="100px" src="data:image/jpeg;base64,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" alt=""></span>
+            </li>
+            <li>
+              <span>CSS</span>
+              <span><img height="100px" src="https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg" alt=""></span>
+            </li>
+            <li>
+             <span>JAVA</span>
+             <span><img height="100px" src="https://logos-download.com/wp-content/uploads/2016/10/Java_logo_icon.png" alt=""></span>
+            </li>
+            <li>
+              <span>EXCEL</span>
+              <span><img height="100px" src="https://i1.wp.com/www.ardilu.com/wp-content/uploads/2020/06/Microsoft-Excel.png?fit=1200%2C720&ssl=1" alt=""></span>
+            </li>
+          </ul>
+          
+       </fieldset>
+       <fieldset class="first">
+          <legend id="PROJECTS">PROJECTS</legend>
+          <ul class="pro">
+             <li> 
+                 <div style="font-weight: bolder;" >SCALER'S YOUTUBE HOMEPAGE</div>
+                 <div><img height="250px" width="536.15px" src="/FAISHON STORE/public/images/Screenshot 2024-12-15 194037.png" alt=""></div>
+             </li>
+             <li>
+                 <div style="font-weight: bolder;">SBI'S LANDING PAGE</div>
+                 <div><img height="250px" src="/FAISHON STORE/public/images/Screenshot 2024-12-15 193255.png" alt=""></div>
+             </li>
+          </ul>
+       </fieldset>
+         <fieldset class="first second" >
+              <legend id="CONTACT">CONTACT</legend>
+ 
+              
+ 
+              <form>
+                REACH OUT TO ME:)
+                  <div>
+                     <input type="text" placeholder="NAME" size="30">
+                     <br>
+                     <input type="email" placeholder="EMAIL" size="30">
+                     <br>
+                     <input type="text" placeholder="CONTATCT NO" size="30">
+                     <br>
+                     <input type="text" placeholder="ANY OPTIONAL MESSAGE" size="30">
+                  </div>
+                  <button type="reset">CANCEL</button>
+                  <button>SUBMIT</button>
+ 
+              </form>
+              <div>
+                  PROFESSIONAL HANDLES:)
+                  <ul class="social">
+                    <li>
+                      <span> <img height="100px" src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" alt=""></span>
+                      <span> <button>Connect</button></span>
+                    </li>
+                    <li>
+                       <span><img height="100px" src="https://t4.ftcdn.net/jpg/03/96/56/19/360_F_396561934_t1OwjMZHrVY211bHA5uUEAix0F1SyLci.jpg" alt=""> </span>
+                      <span> <button><a href="https://www.linkedin.com/in/siddharth-dubey-1ab41a31b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">Connect</a></button></span>
+ 
+                    </li>
+                    <li>
+                      <span><img height="100px" src="https://th.bing.com/th/id/OIP.Eif37cBwT_mfc-BCXYWrXQHaHa?w=166&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt=""></span>
+                      <span> <button><a href="https://wa.me/qr/LPKQVC3SRZINI1 ">Connect</a></button></span>
+                   </li>
+                  </ul>
+              </div>
+         </fieldset>
+ 
+       <section>
+            <a href="#HOME">BACK TO START </a>
+       </section>
+       
+ </body>
